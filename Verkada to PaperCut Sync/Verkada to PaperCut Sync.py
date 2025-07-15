@@ -221,5 +221,6 @@ email = None
 userSAM = None
 userBadge = None
 userCards = None
+badgeNumber = None
 card = None
 response = None
