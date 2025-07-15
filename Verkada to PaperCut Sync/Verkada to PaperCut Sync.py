@@ -79,7 +79,7 @@ def papercutIsUserActive(samAccountName):
     root = ElementTree.fromstring(response.text)
     #Find the key for the active user
     activeUser = root.find('.//boolean')
-    #print(activeUser.text)
+
     if activeUser.text == "1":
         return True
     else:
